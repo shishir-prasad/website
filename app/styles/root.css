@@ -3,6 +3,7 @@ Contains body and margin global styles */
 :root {
 	--backgroundColor: #181d2b;
 	--primaryColor: #dc810c;
+	--primaryDarkColor:#8e5305;
 	--textColor: #ffffff;
 }
 .mainContainer {
@@ -86,6 +87,13 @@ a{
 	padding-right: 2rem;
 }
 
+
+/* Margin */
+
+.mv-1 {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
 
 
 

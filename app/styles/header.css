@@ -12,3 +12,9 @@ color: var(--primaryColor);
 	color: var(--textColor);
 }
 
+.headerButton{
+	background-image: linear-gradient(90deg,var(--primaryColor),var(--primaryDarkColor));
+	padding:0.5rem 1.5rem;
+
+	border-radius: 2rem;
+}

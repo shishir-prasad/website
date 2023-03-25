@@ -13,7 +13,7 @@ export function links() {
 
 export default function Header() {
 	return (
-		<div className="flex justify-between align-center testContainer">
+		<div className="flex justify-between align-center mv-1">
 			<img src={Logo} />
 			<div className="flex gap-1">
 				<NavLink to="/">
@@ -53,7 +53,7 @@ export default function Header() {
 				</NavLink>
 			</div>
 			<div>
-				<p>Contact Us</p>
+				<p className="headerButton">Contact Us</p>
 			</div>
 		</div>
 	);

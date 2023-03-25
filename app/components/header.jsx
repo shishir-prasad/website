@@ -1,8 +1,8 @@
 export default function Header() {
 	return (
-		<div className="flex justify-between">
+		<div className="flex justify-between align-center">
 			<h1>Header Logo</h1>
-			<div>
+			<div className="flex gap-1">
 				<p>Home</p>
 				<p>About</p>
 				<p>Services</p>

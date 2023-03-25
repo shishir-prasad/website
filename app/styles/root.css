@@ -23,6 +23,7 @@ margin-left: auto;
 .flex-col-reverse{
 	flex-direction: column-reverse;
 }
+/* justify content */
 .justify-center{
 	justify-content: center;
 }
@@ -40,6 +41,32 @@ margin-left: auto;
 }
 .justify-between{
 	justify-content:space-between;
+}
+
+/* align content */
+.align-center{
+	align-items: center;
+}
+.align-baseline{
+	align-items:baseline;
+}
+.align-end{
+	align-items:flex-end;
+}
+.align-start{
+	align-items:flex-start;
+}
+.align-around{
+	align-items:space-around;
+}
+.align-between{
+	align-items:space-between;
+}
+
+
+/* gap */
+.gap-1{
+	gap: 1rem;
 }
 
 

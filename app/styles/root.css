@@ -7,3 +7,45 @@ Contains body and margin global styles */
 margin-right: auto;
 margin-left: auto;
 }
+
+.flex{
+	display: flex;
+}
+.flex-row{
+	flex-direction: row;
+}
+.flex-col{
+	flex-direction: column;
+}
+.flex-row-reverse{
+	flex-direction: row-reverse;
+}
+.flex-col-reverse{
+	flex-direction: column-reverse;
+}
+.justify-center{
+	justify-content: center;
+}
+.justify-baseline{
+	justify-content:baseline;
+}
+.justify-end{
+	justify-content:flex-end;
+}
+.justify-start{
+	justify-content:flex-start;
+}
+.justify-around{
+	justify-content:space-around;
+}
+.justify-between{
+	justify-content:space-between;
+}
+
+
+/* Padding */
+
+.padding-horizontal-2{
+	padding-left: 2rem;
+	padding-right: 2rem;
+}

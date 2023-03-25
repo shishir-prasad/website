@@ -1,6 +1,6 @@
 export default function Header() {
 	return (
-		<div>
+		<div className="flex justify-between">
 			<h1>Header Logo</h1>
 			<div>
 				<p>Home</p>

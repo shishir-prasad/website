@@ -135,6 +135,9 @@ box-shadow: 0 2px 7px 0 #c9c3c3;
 	.button-container{
 	justify-content: center;
 	}
+	.service-card{
+		flex-basis: 100%;
+	}
 	.service-title{
 		font-size: 2rem;
 	}

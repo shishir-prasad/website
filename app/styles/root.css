@@ -1,2 +1,9 @@
 /* Root Css File
 Contains body and margin global styles */
+
+.mainContainer{
+	background-color:#181d2b ;
+	max-width: 1440px;
+margin-right: auto;
+margin-left: auto;
+}

@@ -1,18 +1,14 @@
 /* Header Css File */
 
-.testContainer{
-	background-color: #ffffff;
-}
 .activeClass{
 	text-decoration: none;
-	background-color: white;
+	
 color: var(--primaryColor);
-margin-right: 20rem;
+
 }
 
 .inActiveClass{
 	text-decoration: none;
 	color: var(--textColor);
-	margin-left: 20rem;
 }
 

@@ -7,6 +7,8 @@ import {
 	ScrollRestoration,
 } from "@remix-run/react";
 import globalStyles from "~/styles/root.css";
+import headerStyles from "~/styles/header.css";
+
 import Header from "./components/header";
 
 export const meta = () => ({
@@ -20,6 +22,10 @@ export function links() {
 		{
 			rel: "stylesheet",
 			href: globalStyles,
+		},
+		{
+			rel: "stylesheet",
+			href: headerStyles,
 		},
 	];
 }

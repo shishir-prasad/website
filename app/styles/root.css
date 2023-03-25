@@ -89,17 +89,4 @@ a{
 
 
 
-/* Header Files */
 
-.activeClass{
-	text-decoration: none;
-	
-color: var(--primaryColor);
-
-}
-
-.inActiveClass{
-	text-decoration: none;
-	color: var(--textColor);
-
-}

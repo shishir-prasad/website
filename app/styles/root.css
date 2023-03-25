@@ -1,78 +1,83 @@
 /* Root Css File
 Contains body and margin global styles */
-
-.mainContainer{
-	background-color:#181d2b ;
+:root {
+	--backgroundColor: #181d2b;
+	--primaryColor: #dc810c;
+	--textColor: #ffffff;
+}
+.mainContainer {
+	background-color: var(--backgroundColor);
 	max-width: 1440px;
-margin-right: auto;
-margin-left: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+p{
+	color: var(--textColor);
 }
 
-.flex{
+.flex {
 	display: flex;
 }
-.flex-row{
+.flex-row {
 	flex-direction: row;
 }
-.flex-col{
+.flex-col {
 	flex-direction: column;
 }
-.flex-row-reverse{
+.flex-row-reverse {
 	flex-direction: row-reverse;
 }
-.flex-col-reverse{
+.flex-col-reverse {
 	flex-direction: column-reverse;
 }
 /* justify content */
-.justify-center{
+.justify-center {
 	justify-content: center;
 }
-.justify-baseline{
-	justify-content:baseline;
+.justify-baseline {
+	justify-content: baseline;
 }
-.justify-end{
-	justify-content:flex-end;
+.justify-end {
+	justify-content: flex-end;
 }
-.justify-start{
-	justify-content:flex-start;
+.justify-start {
+	justify-content: flex-start;
 }
-.justify-around{
-	justify-content:space-around;
+.justify-around {
+	justify-content: space-around;
 }
-.justify-between{
-	justify-content:space-between;
+.justify-between {
+	justify-content: space-between;
 }
 
 /* align content */
-.align-center{
+.align-center {
 	align-items: center;
 }
-.align-baseline{
-	align-items:baseline;
+.align-baseline {
+	align-items: baseline;
 }
-.align-end{
-	align-items:flex-end;
+.align-end {
+	align-items: flex-end;
 }
-.align-start{
-	align-items:flex-start;
+.align-start {
+	align-items: flex-start;
 }
-.align-around{
-	align-items:space-around;
+.align-around {
+	align-items: space-around;
 }
-.align-between{
-	align-items:space-between;
+.align-between {
+	align-items: space-between;
 }
-
 
 /* gap */
-.gap-1{
+.gap-1 {
 	gap: 1rem;
 }
 
-
 /* Padding */
 
-.ph-2{
+.ph-2 {
 	padding-left: 2rem;
 	padding-right: 2rem;
 }

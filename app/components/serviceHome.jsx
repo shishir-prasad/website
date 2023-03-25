@@ -3,7 +3,7 @@ import React from "react";
 const ServiceCard = () => {
 	return (
 		<div className="service-card">
-			<img src="https://picsum.photos/200/300" className="image" />
+			<img src="https://picsum.photos/200/200" className="image" />
 
 			<div className="service-card-title">Title</div>
 			<div className="service-text">

@@ -1,4 +1,7 @@
+import React from "react";
 import HomeStyles from "~/styles/home.css";
+import HeroSection from "../components/hero";
+import ServiceHome from "../components/serviceHome";
 
 export function links() {
 	return [
@@ -11,23 +14,9 @@ export function links() {
 
 export default function Index() {
 	return (
-		<div className="container">
-			<div className="hero-section">
-				<div className="text-container">
-					<h1 className="hero-title">
-						We are top-notch <br />
-						<span className="primary-color">development </span>
-						agency
-					</h1>
-					<p className="hero-para">
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
-						adipisci deleniti ipsam, incidunt ipsum reiciendis aut omnis dolorum
-						saepe rem quis, repellendus molestiae veniam magni obcaecati
-						laboriosam qui soluta modi?
-					</p>
-				</div>
-				<div>Image</div>
-			</div>
-		</div>
+		<React.Fragment>
+			<HeroSection />
+			<ServiceHome />
+		</React.Fragment>
 	);
 }

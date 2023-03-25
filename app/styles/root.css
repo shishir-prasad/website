@@ -5,7 +5,24 @@ Contains body and margin global styles */
 	--primaryColor: #dc810c;
 	--primaryDarkColor:#8e5305;
 	--textColor: #ffffff;
+	--grayColor:#252c41;
 }
+
+/* Base Styles */
+div,p,h1,h2{
+	color: var(--textColor);
+}
+a{
+	text-decoration: none;
+}
+
+hr{
+	background-color: #d3d6df;
+	height: 1px;
+	opacity: 0.2;
+border:none;
+}
+/* Other Styles */
 .mainContainer {
 	background-color: var(--backgroundColor);
 	max-width: 1300px;
@@ -14,12 +31,7 @@ Contains body and margin global styles */
 	font-family: "system-ui, sans-serif"; 
 	line-height: 1.4;
 }
-p{
-	color: var(--textColor);
-}
-a{
-	text-decoration: none;
-}
+
 .flex {
 	display: flex;
 }
@@ -95,7 +107,9 @@ a{
 	margin-bottom: 1rem;
 }
 
-
+.mr-1{
+	margin-right:1rem
+}
 
 
 /* Shared classes */

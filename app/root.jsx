@@ -30,7 +30,7 @@ export default function App() {
 				<Meta />
 				<Links />
 			</head>
-			<body className="mainContainer padding-horizontal-2">
+			<body className="mainContainer ph-2">
 				<Outlet />
 				<ScrollRestoration />
 				<Scripts />

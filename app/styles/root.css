@@ -10,11 +10,15 @@ Contains body and margin global styles */
 	max-width: 1440px;
 	margin-right: auto;
 	margin-left: auto;
+	font-family: "system-ui, sans-serif"; 
+	line-height: 1.4;
 }
 p{
 	color: var(--textColor);
 }
-
+a{
+	text-decoration: none;
+}
 .flex {
 	display: flex;
 }
@@ -80,4 +84,22 @@ p{
 .ph-2 {
 	padding-left: 2rem;
 	padding-right: 2rem;
+}
+
+
+
+
+/* Header Files */
+
+.activeClass{
+	text-decoration: none;
+	
+color: var(--primaryColor);
+
+}
+
+.inActiveClass{
+	text-decoration: none;
+	color: var(--textColor);
+
 }

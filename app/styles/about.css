@@ -1,0 +1,13 @@
+/* About Css file */
+
+h1{
+	color: var(--textColor)
+}
+.container{
+	min-height: 90vh;
+
+}
+
+.text-container{
+max-width: 50%;
+}

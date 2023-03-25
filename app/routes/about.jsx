@@ -1,7 +1,13 @@
+import AboutStyles from "~/styles/about.css";
+export function links() {
+	return [
+		{
+			rel: "stylesheet",
+			href: AboutStyles,
+		},
+	];
+}
+
 export default function About() {
-	return (
-		<div>
-			<p>About Page</p>
-		</div>
-	);
+	return <div></div>;
 }

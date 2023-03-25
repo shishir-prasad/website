@@ -1,0 +1,60 @@
+/* Home File Styles */
+
+h1 {
+	color: var(--textColor);
+}
+.container {
+	display: flex;
+	align-items: center;
+	min-height: 90vh;
+}
+.hero-section {
+	display: flex;
+	flex-direction: row;
+}
+
+.text-container {
+	max-width: 60%;
+}
+.hero-title {
+	font-size: 4.2rem;
+}
+.hero-para {
+	max-width: 80%;
+}
+
+@media only screen and (max-width: 991px) {
+	.hero-title {
+		font-size: 3.5rem;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.container {
+		align-items: flex-start;
+	}
+	.hero-section {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.text-container {
+		max-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.hero-title {
+		font-size: 2.8rem;
+		text-align: center;
+	}
+	.hero-para {
+		text-align: center;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	.hero-title {
+		font-size: 2rem;
+	}
+}

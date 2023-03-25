@@ -8,7 +8,7 @@ Contains body and margin global styles */
 }
 .mainContainer {
 	background-color: var(--backgroundColor);
-	max-width: 1440px;
+	max-width: 1300px;
 	margin-right: auto;
 	margin-left: auto;
 	font-family: "system-ui, sans-serif"; 
@@ -98,3 +98,7 @@ a{
 
 
 
+/* Shared classes */
+.primary-color{
+color:var(--primaryColor)
+}

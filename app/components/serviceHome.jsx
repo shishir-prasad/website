@@ -4,7 +4,6 @@ const ServiceCard = () => {
 	return (
 		<div className="service-card">
 			<img src="https://picsum.photos/200/200" className="image" />
-
 			<div className="service-card-title">Title</div>
 			<div className="service-text">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. In excepturi

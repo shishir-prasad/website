@@ -33,9 +33,12 @@ margin-top:2rem;
 color:var(--textColor);
 	font-weight:700;
 	border: 1px solid transparent;
+	transition-duration: 300ms;
 }
 .btn:hover{
 	border: 1px solid var(--textColor);
+	color: darkgray;
+
 }
 .primary-button{
 	background-image: linear-gradient(90deg,var(--primaryColor),var(--primaryDarkColor));
@@ -93,6 +96,33 @@ background-image: linear-gradient(180deg, #262e43, #191f31);
 .service-text{
 	padding:1rem;	
 
+}
+.service-divider{
+	margin-top: 4rem;
+}
+
+/* Start working section */
+.work-card{
+	border-radius: 6px;
+	width: 100%;
+	border-width: 1px;
+	border: 1px solid ;
+	border-color: #3b4151;
+margin-bottom: 2rem;
+background-image: linear-gradient(180deg, #262e43, #191f31);
+    box-shadow: 0 2px 7px 0 rgba(20, 20, 43, 0.04);
+}
+
+/* Case Study Section */
+.case-study-card{
+	flex-basis: 48%;
+	border-radius: 5px;
+	border-width: 1px;
+	border: 1px solid ;
+	border-color: #3b4151;
+margin-bottom: 2rem;
+background-image: linear-gradient(180deg, #262e43, #191f31);
+    box-shadow: 0 2px 7px 0 rgba(20, 20, 43, 0.04);
 }
 
 @media only screen and (max-width: 991px) {

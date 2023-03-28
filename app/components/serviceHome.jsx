@@ -31,6 +31,11 @@ export default function ServiceHome() {
 				<ServiceCard />
 				<ServiceCard />
 			</div>
+			<div className="button-container justify-center">
+				<div className="btn primary-button mr-1">Contact Us</div>
+				<div className="btn secondary-button">Browse all our services</div>
+			</div>
+			<hr className="service-divider" />
 		</div>
 	);
 }

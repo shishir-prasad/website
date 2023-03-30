@@ -1,5 +1,6 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
+import { FiArrowRight } from "react-icons/fi";
 const ServiceCard = () => {
 	return (
 		<div className="service-card">
@@ -18,11 +19,15 @@ const ServiceCard = () => {
 const CaseStudyCard = () => {
 	return (
 		<div className="case-study-card p-2">
-			<p>Logo of company</p>
+			<p className="pl-1">Logo of company</p>
 
-			<div className="service-text">
+			<div className="service-title">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. In excepturi
 			</div>
+			<Link className="flex pl-1 align-center" to="/about">
+				<p className="pr-05">Read case study</p>
+				<FiArrowRight color="white" />
+			</Link>
 		</div>
 	);
 };

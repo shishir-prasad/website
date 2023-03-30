@@ -22,120 +22,125 @@ h1 {
 .hero-para {
 	max-width: 80%;
 }
-.button-container{
+.button-container {
 	display: flex;
-margin-top:2rem;
+	margin-top: 2rem;
 }
-.btn{
-	background-image: linear-gradient(90deg,var(--primaryColor),var(--primaryDarkColor));
-	padding:1rem 2rem;
+.btn {
+	background-image: linear-gradient(
+		90deg,
+		var(--primaryColor),
+		var(--primaryDarkColor)
+	);
+	padding: 1rem 2rem;
 	border-radius: 4rem;
-color:var(--textColor);
-	font-weight:700;
+	color: var(--textColor);
+	font-weight: 700;
 	border: 1px solid transparent;
 	transition-duration: 300ms;
 }
-.btn:hover{
+.btn:hover {
 	border: 1px solid var(--textColor);
 	color: darkgray;
-
 }
-.primary-button{
-	background-image: linear-gradient(90deg,var(--primaryColor),var(--primaryDarkColor));
-	
+.primary-button {
+	background-image: linear-gradient(
+		90deg,
+		var(--primaryColor),
+		var(--primaryDarkColor)
+	);
 }
-.secondary-button{
+.secondary-button {
 	background-image: none;
-	background-color:var(--grayColor);
-	
+	background-color: var(--grayColor);
 }
-.client-section{
+.client-section {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 }
-.client-title,.client-name{
-font-weight: 700;
-font-size: 1.2rem;
+.client-title,
+.client-name {
+	font-weight: 700;
+	font-size: 1.2rem;
 }
-.client-name{
-	font-size:2rem;
+.client-name {
+	font-size: 2rem;
 }
-.card-container{
+.card-container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	
 }
-.service-card{
+.service-card {
 	flex-basis: 30%;
 	border-radius: 5px;
 	border-width: 1px;
-	border: 1px solid ;
+	border: 1px solid;
 	border-color: #3b4151;
-margin-bottom: 2rem;
-background-image: linear-gradient(180deg, #262e43, #191f31);
-    box-shadow: 0 2px 7px 0 rgba(20, 20, 43, 0.04);
+	margin-bottom: 2rem;
+	background-image: linear-gradient(180deg, #262e43, #191f31);
+	box-shadow: 0 2px 7px 0 rgba(20, 20, 43, 0.04);
 }
-.image{
+.image {
 	width: 100%;
 	border-top-right-radius: 5px;
 	border-top-left-radius: 5px;
 }
 
-.service-title{
+.service-title {
 	font-size: 3rem;
-	padding:1rem;	
+	padding: 1rem;
 	text-align: center;
-}	
-.service-card-title{
+}
+.service-card-title {
 	font-weight: 600;
 	padding: 1rem;
 }
-.service-text{
-	padding:1rem;	
-
+.service-text {
+	padding: 1rem;
 }
-.service-divider{
+.service-divider {
 	margin-top: 4rem;
 }
 
 /* Start working section */
-.work-card{
+.work-card {
 	border-radius: 6px;
 	width: 100%;
 	border-width: 1px;
-	border: 1px solid ;
+	border: 1px solid;
 	border-color: #3b4151;
-margin-bottom: 2rem;
-background-image: linear-gradient(180deg, #262e43, #191f31);
-    box-shadow: 0 2px 7px 0 rgba(20, 20, 43, 0.04);
+	margin-bottom: 2rem;
+	background-image: linear-gradient(180deg, #262e43, #191f31);
+	box-shadow: 0 2px 7px 0 rgba(20, 20, 43, 0.04);
 }
 
 /* Case Study Section */
-.case-study-card{
+.case-study-card {
 	flex-basis: 48%;
 	border-radius: 5px;
 	border-width: 1px;
-	border: 1px solid ;
+	border: 1px solid;
 	border-color: #3b4151;
-margin-bottom: 2rem;
-background-image: linear-gradient(180deg, #262e43, #191f31);
-    box-shadow: 0 2px 7px 0 rgba(20, 20, 43, 0.04);
+	margin-bottom: 2rem;
+	background-image: linear-gradient(180deg, #262e43, #191f31);
+	box-shadow: 0 2px 7px 0 rgba(20, 20, 43, 0.04);
 }
-
+.case-study-text {
+}
 @media only screen and (max-width: 991px) {
 	.hero-title {
 		font-size: 3.5rem;
 	}
-	.service-title{
+	.service-title {
 		font-size: 2.5rem;
 	}
-	.service-card{
+	.service-card {
 		flex-basis: 45%;
 	}
-	.client-section{
+	.client-section {
 		flex-direction: column;
 	}
 }
@@ -163,24 +168,22 @@ background-image: linear-gradient(180deg, #262e43, #191f31);
 		margin-left: auto;
 	}
 
-	.button-container{
-	justify-content: center;
+	.button-container {
+		justify-content: center;
 	}
-	.service-card{
+	.service-card {
 		flex-basis: 100%;
 	}
-	.service-title{
+	.service-title {
 		font-size: 2rem;
 	}
 }
-
-
 
 @media only screen and (max-width: 479px) {
 	.hero-title {
 		font-size: 2rem;
 	}
-	.service-title{
+	.service-title {
 		font-size: 1.5rem;
 	}
 }

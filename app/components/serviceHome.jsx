@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade } from "react-awesome-reveal";
 
 const ServiceCard = () => {
 	return (
@@ -18,24 +19,32 @@ const ServiceCard = () => {
 export default function ServiceHome() {
 	return (
 		<div className="service-container">
-			<h2 className="service-title">
-				We are development experts on all <br />
-				<span className="primary-color">technologies</span> &{" "}
-				<span className="primary-color">platfroms</span>{" "}
-			</h2>
-			<div className="card-container">
-				<ServiceCard />
-				<ServiceCard />
-				<ServiceCard />
-				<ServiceCard />
-				<ServiceCard />
-				<ServiceCard />
-			</div>
-			<div className="button-container justify-center">
-				<div className="btn primary-button mr-1">Contact Us</div>
-				<div className="btn secondary-button">Browse all our services</div>
-			</div>
-			<hr className="service-divider" />
+			<Fade delay={3} cascade damping={0.5} triggerOnce>
+				<h2 className="service-title">
+					We are development experts on all <br />
+					<span className="primary-color">technologies</span> &{" "}
+					<span className="primary-color">platfroms</span>{" "}
+				</h2>
+			</Fade>
+			<Fade delay={3} cascade damping={0.5} triggerOnce>
+				<div className="card-container">
+					<ServiceCard />
+					<ServiceCard />
+					<ServiceCard />
+					<ServiceCard />
+					<ServiceCard />
+					<ServiceCard />
+				</div>
+			</Fade>
+			<Fade delay={3} cascade damping={0.5} triggerOnce>
+				<div className="button-container justify-center">
+					<div className="btn primary-button mr-1">Contact Us</div>
+					<div className="btn secondary-button">Browse all our services</div>
+				</div>
+			</Fade>
+			<Fade delay={3} cascade damping={0.5} triggerOnce>
+				<hr className="service-divider" />
+			</Fade>
 		</div>
 	);
 }
